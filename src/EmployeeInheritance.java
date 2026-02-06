@@ -47,21 +47,17 @@ public class EmployeeInheritance {
         Officer off = new Officer();
         off.name = sc.nextLine();
         off.age = sc.nextInt();
-        sc.nextLine(); 
         off.phoneNumber = sc.nextLine();
         off.address = sc.nextLine();
         off.salary = sc.nextInt();
-        sc.nextLine(); 
         off.specialization = sc.nextLine();
 
         Manager man = new Manager();
         man.name = sc.nextLine();
         man.age = sc.nextInt();
-        sc.nextLine(); 
         man.phoneNumber = sc.nextLine();
         man.address = sc.nextLine();
-        man.salary = sc.nextInt();
-        sc.nextLine(); 
+        man.salary = sc.nextInt(); 
         man.department = sc.nextLine();
 
         off.displayOfficer();
