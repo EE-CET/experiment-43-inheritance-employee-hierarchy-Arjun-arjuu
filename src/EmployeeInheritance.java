@@ -50,7 +50,7 @@ public class EmployeeInheritance {
         sc.nextLine(); 
         off.phoneNumber = sc.nextLine();
         off.address = sc.nextLine();
-        off.salary = sc.nextFloat();
+        off.salary = sc.nextint();
         sc.nextLine(); 
         off.specialization = sc.nextLine();
 
@@ -60,7 +60,7 @@ public class EmployeeInheritance {
         sc.nextLine(); 
         man.phoneNumber = sc.nextLine();
         man.address = sc.nextLine();
-        man.salary = sc.nextFloat();
+        man.salary = sc.nextint();
         sc.nextLine(); 
         man.department = sc.nextLine();
 
