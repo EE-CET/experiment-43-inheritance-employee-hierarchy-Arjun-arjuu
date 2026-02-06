@@ -5,7 +5,7 @@ class Employee {
     int age;
     String phoneNumber;
     String address;
-    float salary;
+    int salary;
 
     void printSalary() {
         System.out.println((int)salary);
